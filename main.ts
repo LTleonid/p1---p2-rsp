@@ -16,7 +16,7 @@ while (!(input.buttonIsPressed(Button.B))) {
 }
 basic.forever(function () {
     if (Player2_Active == 1 && Player1_Active == 1) {
-        while (Player1_Score == 3 || Player2_Score == 3) {
+        while (!(Player1_Score == 3 || Player2_Score == 3)) {
         	
         }
     }
